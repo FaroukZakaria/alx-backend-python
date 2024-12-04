@@ -2,3 +2,5 @@
 *-main.py
 __pycache__
 user_data.csv
+populate.py
+users.db
