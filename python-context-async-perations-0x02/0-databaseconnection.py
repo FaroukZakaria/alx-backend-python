@@ -1,6 +1,9 @@
 import sqlite3
 
 class DatabaseConnection:
+    def __init__(self):
+        self.connection = None
+
     def __enter__(self):
         self.connection = sqlite3.connect('users.db')
         return self.connection
